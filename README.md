@@ -1,4 +1,3 @@
 # Ice Bear Drawings
 
-<a href="Ice-Bear-Drawings/index.html"></a>
-
+<a href=Web_Pages_Index/index.html>Intro to HTML</a>
