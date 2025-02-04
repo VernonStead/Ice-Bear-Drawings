@@ -29,3 +29,6 @@ nav a:hover {
 h1,h2,h3,h4,footer {
 text-align: center;
 }
+header {
+    text-align: center;
+}
