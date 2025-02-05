@@ -9,13 +9,13 @@ body {
     padding: 20px;
 }
 img {
-display: block;
+    display: block;
     margin: 0 auto;
     width:25px;
 }
 nav {
     text-align: center;
-    margin: 20px 0;
+    margin: 500px 0;
 }
 nav a {
     font-size: 22px;
