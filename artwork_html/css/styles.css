@@ -2,11 +2,11 @@ body {
     background-color: aquamarine;
 }
 #container {
-    background-color: beige;
+    background-color: rgb(254, 202, 209);
     width: 1200px;
-    margin: 20px auto;
-    border: 2px solid black;
-    padding: 20px;
+    margin: 40px auto;
+    border: 8px solid black;
+    padding: 40px;
 }
 img {
     display: block;
