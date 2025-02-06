@@ -38,8 +38,8 @@ nav a {
     text-decoration: none;
     width: 100px;
     height: 20px;
-    color: greenyellow;
-    background-color: orange;
+    color: blue;
+    background-color: red;
 }
 
 nav a:hover {
