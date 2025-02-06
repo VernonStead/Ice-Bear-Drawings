@@ -35,3 +35,6 @@ header {
     font-weight: bold;
     color: indianred;
 }
+hr {
+    border: 10px solid purple;
+}
