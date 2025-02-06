@@ -38,8 +38,8 @@ nav a {
     text-decoration: none;
     width: 100px;
     height: 20px;
-    color: rgb(255, 119, 0);
-    background-color: rgb(0, 255, 13);
+    color: greenyellow;
+    background-color: orange;
 }
 
 nav a:hover {
@@ -54,8 +54,8 @@ header {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    color: indianred;
+    color: purple;
 }
 hr {
-    border: 10px solid purple;
+    border: 8px solid purple;
 }
