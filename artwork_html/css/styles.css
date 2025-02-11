@@ -8,6 +8,7 @@ body {
     border: 8px solid black;
     padding: 40px;
 }
+
 img {
     display: block;
     margin: 0 auto;
@@ -78,14 +79,17 @@ main {
   article img {
       width: 60%;
   }
+  aside img {
+      width: 40%;
+  }
 
-  .single-colum{
+  .single-column {
     display: block;
 }
-.single-colum aside, .single-colum article {
+.single-column aside, .single-column article {
     width: 95%;
     margin: 20px auto;
 }
-.single-colum img {
+.single-column img {
     width: 50%;
 }
