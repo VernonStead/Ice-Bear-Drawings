@@ -74,6 +74,9 @@ main {
   aside {
       width: 40%;
   }
+  aside img {
+    width: auto;
+  }
   article img {
       width: 60%;
   }
