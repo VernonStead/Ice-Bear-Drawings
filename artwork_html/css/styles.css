@@ -76,5 +76,21 @@ main {
   }
   article img {
       width: 70%;
-      
   }
+
+  .single-colum{
+    display: block;
+}
+.single-colum aside, .single-colum article {
+    width: 95%;
+    margin: 20px auto;
+}
+.single-colum img {
+    width: 50%;
+}
+footer {
+    text-align: center;
+   padding: 10px;
+   color: hotpink;
+   border-top: 2px solid purple;
+}
