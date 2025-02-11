@@ -59,3 +59,22 @@ header {
 hr {
     border: 8px solid purple;
 }
+main {
+    display: flex;
+  }
+  article, aside {
+   padding: 10px;
+   margin: 10px;
+   border: 2px solid green; 
+      border-radius: 10px;
+  }
+  article {
+      width:60%;
+  }
+  aside {
+      width: 40%;
+  }
+  article img {
+      width: 70%;
+      
+  }
