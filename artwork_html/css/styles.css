@@ -28,7 +28,7 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
    
 }
 
@@ -40,6 +40,8 @@ nav li a {
   font-weight: bold;
   text-decoration: none;
   margin: 0 20px;
+  width: 125px;
+  height: 25px;
 }
 nav a:hover {
     color: rgb(255, 0, 153);
