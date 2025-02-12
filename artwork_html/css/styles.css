@@ -93,3 +93,8 @@ main {
 .single-column img {
     width: 50%;
 }
+p {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
