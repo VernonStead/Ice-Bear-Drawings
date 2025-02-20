@@ -1,3 +1,4 @@
+/* Global */
 body {
     background-color: aquamarine;
 }
@@ -14,7 +15,19 @@ img {
     margin: 0 auto;
     width: 500px;
 }
-
+/* Desktop Styles */
+@media screen and (min-width: 1200px) {
+    #container {
+        width: 1200px;
+    }
+    
+}
+body {
+    background-image: url("../images/planet-banner.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 nav {
     text-align: center;
     background-color: purple;
@@ -48,12 +61,12 @@ nav a:hover {
     color: rgb(255, 0, 153);
     background-color: blue;
 }
-h1,h2,h3,h4,footer {
+h1,h2,h3,h4,h5,h6,footer {
 text-align: center;
 }
 header {
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: bold;
     color: purple;
 }
@@ -95,6 +108,102 @@ main {
 }
 p {
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+/* Tablet Styles */
+@media only screen and (min-width: 600px) {
+    #container {
+        width: auto;
+    }
+    header h1 {
+        font-size: 36px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    nav ul li a {
+        padding: 20px;
+    }
+
+    #upper_section {
+        display: flex;
+    }
+    
+   section, aside {
+        width: 48%;
+        padding: 10px;
+         border: 12px orange;
+         margin: 10px;
+
+    }
+
+    footer{
+        text-align: center;
+        padding: 40px;
+    }
+    
+    nav li a {
+        width: 150px;
+        height: 30px;
+    }
+    article img {
+        width: 80%;
+    }
+    aside img {
+        width: 20%;
+    }
+}
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    #container {
+        margin: 0 auto;
+        background-color: white;
+        padding: 10px;
+        border: 2px rgb(37, 1, 241);
+        width:auto;
+    }
+    img {
+        width: 50%;
+        image-orientation: from-image;
+    }
+    
+    header h1 {
+        text-align: center;
+        font-size: 24px;
+        color: rgb(204, 7, 7);
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+    }
+    
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        color: rgb(209, 3, 3);
+        background-color: rgb(0, 157, 255);
+        margin-top: 20px;
+    }
+    
+    article img {
+        width: 65%;
+    }
+    aside img {
+        width: 35%;
+    }
 }
